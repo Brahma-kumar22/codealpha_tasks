@@ -331,3 +331,4 @@ predicted_label = np.argmax(prediction)
 
 # Map to ASCII (A=65)
 print("Predicted Character:", chr(predicted_label + 64))
+
